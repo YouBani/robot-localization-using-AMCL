@@ -3,7 +3,9 @@
 The project's objective is to enable the robot to autonomously navigate through a familiar 2D map. This is achieved by employing the AMCL package for localization. The user has the option to set navigation goals via the move_base package or manually control the robot's movement using the teleop node. The repository consist of the following:
 
 * `my_robot` which includes robot model, gazebo world and a 2D map
-* `map_server`, `amcl` and `move_base` ROS packages
+* `map_server` node: is a ROS node that reads a map from disk and offers it via a ROS service
+* `amcl` node: it takes odometry and laser scan data to perform the AMCL localization
+* `move_base` node: Make the robot navigate to a goal position
 ## Prerequisites
 Install dependencies using the following commands:
 ``` sudo apt-get update
