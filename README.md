@@ -14,12 +14,15 @@ sudo apt-get install ros-<your distro>-move-base
 ```
 ## Launch
 * Launch the simulation 
-``` roslaunch my_robot world.launch
+```
+roslaunch my_robot world.launch
 ```
 * Launch the amcl launch file
-``` roslaunch my_robot amcl.launch
+```
+roslaunch my_robot amcl.launch
 ```
 * Launch the teleop script
-``` rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+```
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
 You could control the robot by keyboard commands now.
