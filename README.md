@@ -26,3 +26,4 @@ roslaunch my_robot amcl.launch
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
 You could control the robot by keyboard commands now.
+![Robot localizing itself](https://github.com/YouBani/robot-localization-using-AMCL/blob/main/my_robot/screenshots/Screenshot%20from%202023-07-29%2016-08-53.png)
