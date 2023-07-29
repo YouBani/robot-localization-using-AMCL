@@ -1,4 +1,4 @@
-# robot-localization-using-AMCL
+# Robot Localization Using AMCL Algorithm
 
 The project's objective is to enable the robot to autonomously navigate through a familiar 2D map. This is achieved by employing the AMCL package for localization. The user has the option to set navigation goals via the move_base package or manually control the robot's movement using the teleop node. The repository consist of the following:
 
